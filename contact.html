@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+Name: Ryan Kramer
+Date Created: 7/2/2020
+Most recent revision: 
+-->
+<html lang="en">
+<head>
+<title>Contact Us</title>
+</head>
+
+<body>
+<main>	
+	<header>
+	<h1>Happy's Restaurant</h1>
+	</header>
+	
+	<nav>
+		<hr />
+		<p><a href="index.html">Home</a></p>
+		<p><a href="menu.html">Menu</a></p>
+		<p><a href="contact.html">Contact Us</a></p>
+		<hr />
+	</nav>
+	
+	<section>
+		<form action="fakePage.html" method="POST">
+			<label for="name">Name:</label> <br />
+			<input type="text" id="name" name="name"> <br />
+
+			<label for="email">Email:</label> <br />
+			<input type="text" id="email" name="email"> <br />
+
+			<label for="phone">Phone:</label> <br />
+			<input type="text" id="phone" name="phone"> <br />
+
+			<label for="reason">Reason for Inquiry:</label><br />
+			<select id="reason" name="reason">
+				<option value="catering" selected>Catering</option>
+				<option value="private">Private Party</option>
+				<option value="feedback">Feedback</option>
+				<option value="other">Other</option>
+			</select><br/>
+
+			<label for="info">Additional Information</label><br />
+			<textarea id="info" name="info"></textarea><br />
+
+			
+			Have you been to the restaurant?
+				<input type="radio" id="choice1" name="havebeen" value="no">
+				<label for="choice1">No</label>
+				<input type="radio" id="choice2" name="havebeen" value="yes">
+				<label for="choice2">Yes</label><br />
+			
+
+			
+			Best days to contact you:
+				<input type="checkbox" id="monday" name="monday" value="monday">
+				<label for="monday">M</label>
+
+				<input type="checkbox" id="tuesday" name="tuesday" value="tuesday">
+				<label for="monday">T</label>
+
+				<input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
+				<label for="wednesday">W</label>
+
+				<input type="checkbox" id="thursday" name="thursday" value="thursday">
+				<label for="thursday">Th</label>
+
+				<input type="checkbox" id="friday" name="friday" value="friday">
+				<label for="friday">F</label><br/>
+
+			<input type="submit" name="submit" value="Send Request">
+
+
+		</form>
+		
+
+		
+	</section>
+	<footer>
+		<hr />
+        <p>123 Main Street, Happytown, MN 51234</p>
+        <p>(800) 555-1234</p>
+	</footer>
+</main>	
+</body>	
+</html>
