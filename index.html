@@ -6,34 +6,46 @@ Most recent revision:
 -->
 <html lang="en">
 <head>
-<title>Home Page</title>
+	<title>Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+	<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 <main>	
-	<header>
-	<h1>Happy's Restaurant</h1>
-	</header>
-	
-	<nav>
-		<hr />
-		<p><a href="index.html">Home</a></p>
-		<p><a href="menu.html">Menu</a></p>
-		<p><a href="contact.html">Contact Us</a></p>
-		<hr />
-	</nav>
-	
-	<section style="width:400px">
-	
-		<img src="images/restaurant.jpg" alt="Photograph of Dining Area" />
-        <p>Welcome to our website! At our establishment, we pride ourselves on our delicious food and our elegant atmosphere. We would love for you to stop by! </p>
-	
-	</section>
-	<footer>
-		<hr />
-        <p>123 Main Street, Happytown, MN 51234</p>
-        <p>(800) 555-1234</p>
-	</footer>
+	<div class="container">
+		<header>
+			<h1>Happy's Restaurant</h1>
+		</header>
+		
+		<nav>
+			<hr />
+			<a href="index.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="contact.html">Contact Us</a>
+			<div class="clear-float"></div>
+			<hr />
+		</nav>
+		<section style="background-color: rgb(203, 255, 249);">
+			<figure style="width:400px; margin-left:auto; margin-right:auto;">
+				<img src="images/restaurant.jpg" alt="Photograph of Dining Area"  />
+				<p>Welcome to our website! At our establishment, we pride ourselves on our delicious food and our elegant atmosphere. Our patio overlooking the lake is one of the best views around. We are proud to have one of the finest banquet facilities around, so call us for your next event! We promise you won't find better food within 60 miles. Stop on by! </p>
+			</figure>
+		</section>
+		<footer>
+			<hr />
+			<p>123 Main Street, Happytown, MN 51234</p>
+			<p>(800) 555-1234</p>
+		</footer>
+	</div>
 </main>	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>	
 </html>
