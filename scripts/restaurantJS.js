@@ -1,3 +1,9 @@
+/*
+Creator: Ryan Kramer
+Date created: 7/8/2020
+Date last modified: 7/9/2020
+*/
+
 function clearErrors() {
     var errorFields = document.getElementsByClassName("is-invalid");
     for (counter = 0; counter < errorFields.length; counter++) {
@@ -43,6 +49,5 @@ function validateForm() {
     }
 
     document.getElementById("confirmValidation").innerHTML = "The information is valid!"
-
-   return false;
+    return false;
 }
