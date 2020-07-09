@@ -1,4 +1,3 @@
-
 function clearErrors() {
     var errorFields = document.getElementsByClassName("is-invalid");
     for (counter = 0; counter < errorFields.length; counter++) {
